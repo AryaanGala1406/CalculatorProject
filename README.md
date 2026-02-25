@@ -413,7 +413,7 @@ By completing this project, you have built:
 
 ---
 
-## 📂 Repository Structure
+## 📂 Repository Structure - Basic Java
 
 ```
 CalculatorProject/
@@ -422,3 +422,33 @@ CalculatorProject/
 ├── CalculatorMain.java     # Main entry point
 └── README.md               # This file
 ```
+
+
+
+## 📂 Repository Structure - Maven
+
+```
+CalculatorProject/
+│
+├── pom.xml                         # Maven configuration file
+│
+├── src/
+│   │
+│   ├── main/
+│   │   │
+│   │   └── java/
+│   │      └── Calculator/
+│   │          ├── Calculator.java         # Calculator logic
+│   │          └── CalculatorMain.java     # Main entry point
+│   │   
+│   └── test/
+│       │
+│       └── java/
+│           └── Calculator/
+│               └── CalculatorTest.java    # JUnit test class
+│
+└── target/                               # Generated after build (auto-created)
+    ├── classes/                          # Compiled main classes
+    └── test-classes/                     # Compiled test classes
+```
+
